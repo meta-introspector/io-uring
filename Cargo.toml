@@ -9,11 +9,11 @@ homepage = "https://github.com/tokio-rs/io-uring"
 documentation = "https://docs.rs/io-uring"
 description = "The low-level `io_uring` userspace interface for Rust"
 categories = [ "asynchronous", "network-programming", "filesystem" ]
-rust-version = "1.63"
+# rust-version = "1.63"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[workspace]
+#[workspace]
 exclude = []
 members = [ "io-uring-test", "io-uring-bench" ]
 
